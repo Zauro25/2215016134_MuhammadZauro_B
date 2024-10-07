@@ -24,7 +24,7 @@ export function tambah(a, b) {
       throw new Error('Input harus angka bro');
     }
     if (b === 0) {
-      throw new Error('Tidak bisa membagi dengan nol');
+      throw new Error('Gabisa dibagi dengan 0');
     }
     return a / b;
   }
